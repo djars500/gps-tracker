@@ -29,7 +29,7 @@ DEBUG = True
 GDAL_LIBRARY_PATH = '/opt/homebrew/Cellar/gdal/3.6.3_1/lib/libgdal.dylib'
 GEOS_LIBRARY_PATH = '/opt/homebrew/Cellar/geos/3.11.2/lib/libgeos_c.dylib'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
